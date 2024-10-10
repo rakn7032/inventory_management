@@ -30,7 +30,9 @@ Follow these steps to set up the project:
     Create a PostgreSQL database and a user with the following commands:
 
     CREATE DATABASE inventory_management;
+   
     CREATE USER admin1 WITH PASSWORD 'admin@123';
+   
     GRANT ALL PRIVILEGES ON DATABASE inventory_management TO admin1;
 
     Then, ensure the database settings in your settings.py file match the following:
@@ -46,12 +48,13 @@ Follow these steps to set up the project:
         }
     }
 
-8. Apply Migrations:
+9. Apply Migrations:
 
     python manage.py makemigrations
+   
     python manage.py migrate
 
-9. Run the Development Server Locally: 
+11. Run the Development Server Locally: 
 
     python manage.py runserver
 
