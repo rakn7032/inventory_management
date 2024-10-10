@@ -609,3 +609,4 @@
 2024-10-10 08:22:08,931 - common.log_utils - INFO - POST /category-creation | Method: POST | Path: /inventory/category/ | User: User: 9 - ravilla.anil3@gmail.com | Data: {'name': 'Watches'}
 2024-10-10 08:22:08,935 - common.log_utils - ERROR - Failed to create category: {'name': [ErrorDetail(string='category with this name already exists.', code='unique')]}
 2024-10-10 08:22:08,935 - django.server - WARNING - "POST /inventory/category/ HTTP/1.1" 400 52
+2024-10-10 09:45:44,485 - django.utils.autoreload - INFO - Watching for file changes with StatReloader
