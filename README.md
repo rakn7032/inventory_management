@@ -11,19 +11,20 @@ Follow these steps to set up the project:
 2. Clone the Repository:
 
     git clone https://github.com/rakn7032/inventory_management.git
-    cd inventory_management
 
-3. Create and Activate a Virtual Environment:
+   cd inventory_management
+
+4. Create and Activate a Virtual Environment:
     On macOS, use the following commands:
 
     python -m venv venv   # Create a virtual environment
     source venv/bin/activate   # Activate the virtual environment
 
-4. Install Dependencies:
+5. Install Dependencies:
 
     pip install -r requirements.txt
 
-5. Set Up the PostgreSQL Database:
+6. Set Up the PostgreSQL Database:
 
     Create a PostgreSQL database and a user with the following commands:
 
@@ -44,12 +45,12 @@ Follow these steps to set up the project:
         }
     }
 
-6. Apply Migrations:
+7. Apply Migrations:
 
     python manage.py makemigrations
     python manage.py migrate
 
-7. Run the Development Server Locally: 
+8. Run the Development Server Locally: 
 
     python manage.py runserver
 
