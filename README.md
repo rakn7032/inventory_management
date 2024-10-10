@@ -18,13 +18,14 @@ Follow these steps to set up the project:
     On macOS, use the following commands:
 
     python -m venv venv   # Create a virtual environment
+   
     source venv/bin/activate   # Activate the virtual environment
 
-5. Install Dependencies:
+6. Install Dependencies:
 
     pip install -r requirements.txt
 
-6. Set Up the PostgreSQL Database:
+7. Set Up the PostgreSQL Database:
 
     Create a PostgreSQL database and a user with the following commands:
 
@@ -45,12 +46,12 @@ Follow these steps to set up the project:
         }
     }
 
-7. Apply Migrations:
+8. Apply Migrations:
 
     python manage.py makemigrations
     python manage.py migrate
 
-8. Run the Development Server Locally: 
+9. Run the Development Server Locally: 
 
     python manage.py runserver
 
